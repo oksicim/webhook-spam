@@ -1,0 +1,26 @@
+{
+  "name": "discord-webhook-panel",
+  "version": "1.0.0",
+  "description": "Discord Components V2 tabanlı webhook test ve yönetim paneli",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "setup": "node scripts/kurulum.js",
+    "check": "node scripts/sistem-kontrol.js",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "discord",
+    "webhook",
+    "components-v2"
+  ],
+  "author": "",
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "axios": "^1.20.0",
+    "discord.js": "^14.27.0"
+  }
+}
